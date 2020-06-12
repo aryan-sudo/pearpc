@@ -5,7 +5,7 @@ aclocal -I . \
 && automake --add-missing \
 && autoconf \
 || exit 1
-
-echo PearPC sources are now prepared. To build here, run:
-echo " ./configure"
+# Telling end user how to continue
+echo The autogen.sh had just generated the configure script. To continue, run:
+echo " ./configure" and then
 echo " make"
