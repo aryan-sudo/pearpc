@@ -271,7 +271,7 @@ int main(int argc, char *argv[])
 
 
 		if (gConfig->getConfigInt("memory_size") < 64*1024*1024) {
-			ht_printf("%s: The OS can't boot with < 64MB you dumb ass. 'memory_size' must be >= 64MB.", argv[1]);
+			ht_printf("%s: The client can't boot with < 64MB you dumb ass. 'memory_size' must be >= 64MB.", argv[1]);
 			exit(1);
 		}
 		int msec = gConfig->getConfigInt("redraw_interval_msec");
