@@ -21,13 +21,13 @@
 #ifndef __INFO_H__
 #define __INFO_H__
 
-#define APPNAME "PearPC"
+#define APPNAME "Abandoned PearPC"
 #define APPVERSION "0.6pre"
 // this will show up in the win32 version resource:
 #define APPVERSION_IN_NUMBERS 0,0,6,0
 
 #define EMULATOR_MODEL "PowerPC (" APPNAME " " APPVERSION ")"
-#define COPYRIGHT "(c) 2003-2015 Sebastian Biallas <sb@biallas.net>"
+#define COPYRIGHT "(c) 2003-2015 Sebastian Biallas <sb@biallas.net> 2020 Aryan Chandna <aryan.chandna@icloud.com>"
 
 //#define PPC_CPU_ENABLE_SINGLESTEP
 
